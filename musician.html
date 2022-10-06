@@ -52,23 +52,23 @@ alert("“Wrong Musician");
 out.innerHTML="correct "+correct+"  wrong "+wrong
 </script>
 <div class="container">
-    <img src="batfly.jpeg" id="bug" width="100" height="100" onclick="swapImage()">
+    <img src="bat fly.jpeg" id="bug" width="100" height="100" onclick="swapImage()">
 </div>
 <script>
     let useImage = 1;
     function swapImage(){
         switch(useImage){
             case 1:
-                document.getElementById("bug").src = 'batfly.jpeg';
-                useImage = 2;
+                document.getElementById("bug").src = 'bat fly.jpg';
+                useImage = 3;
                 break;
             case 2:
                 document.getElementById("bug").src = 'Damselfly.jpg';
-                useImage = 3;
+                useImage = 1;
                 break;
             case 3:
-                document.getElementById("bug").src = 'Odonata.jpg';
-                useImage = 1;
+                document.getElementById("bug").src = 'odonata.jpg';
+                useImage = 2;
                 break;
         }
     }
